@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.site-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-title {
+  margin: 0;
+}
+
+.site-nav .nav-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.site-nav .nav-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.site-nav .nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.intro-section,
+.services-section,
+.contact-section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section-desc,
+.services-item {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.contact-form {
+  margin-top: 10px;
+}
+
+.site-footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
